@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .navbar-custom {
+            background-color: #C3996D;
+        }
+        .custom-link, .custom-link:hover{
+            text-decoration: none;
+            color: black;
+        }
+        .custom-link:hover {text-decoration-line: underline;}
+        .custom-font {color: #603813;}
+    </style>
+</head>
+<div class="container mt-3">
+    <!-- must start with a row -->
+    <div class="row">
+        <!-- make aside 4 columns out of 12 for medium (>=768px) -->
+        <aside class="col-md-4">
+            <!-- add margin bottom of 1rem to all containers in the sidebar mb-3 -->
+            <header class="mb-3">
+                <!-- make image fluid with class="img-fluid" -->
+            </header>
+            <!-- hide all sidebar containers except above logo when viewport is small (< 768px)-->
+            <!--Hidden only on xs and small d-none d-sm-none,  Visible on medium (>=768px) and larger -->
+            <div class="mb-3 d-none d-sm-none d-md-block">
+                <a href="#">
+                    <figure>
+                        <figcaption class="p-2 custom-font custom-link">Collection of the Month</figcaption>
+                        <img src="images/autumn.jpg" alt="autumncollection" width="200">
+                    </figure>
+                </a>
+            </div>
+            <div class="mb-3 d-none d-sm-none d-md-flex flex-md-column">
+                <a href="#" class="p-2 custom-font custom-link">Signature Collections</a>
+                <a href="#" class="p-2 custom-font custom-link">
+                    <img src="images/variety_collection.jpg" alt="variety collection" width="200"></a>
+                <a href="#" class="p-2 custom-font custom-link">Holidays</a>
+                <a href="#" class="p-2 custom-font custom-link">
+                    <img src="images/collections/valentine.jpg" alt="Valentine collection" width="230"></a>
+                <a href="#" class="p-2 custom-font custom-link">Special Occasions</a>
+
+            </div>
+
+        </aside>
+        <!-- make main container 8 columns out of 12 for medium (>=768px)-->
+        <main class="col-md-8">
+            <figure>
+                <img src="images/headertitle.png" class="img-fluid p-3" alt="store name">
+                <figcaption class="custom-font text-center h3">[shoc-l-at<i>uh</i>-lyey]: Gourmet Chocolates</figcaption>
+            </figure>
+            <!-- nav code and classes were taken from the bootstrap site. these are provided in the wk8downloads as nav-snippet.txt -->
+            <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Main <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Specials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2 custom-font" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-light my-2 my-sm-0 custom-font" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <section>
+                <!-- margin top for section is mt-3 -->
+
+            </section>
+            <!--
+
+            m - margin
+            y - for classes that set both *-top and *-bottom
+
+            -->
+            <footer class="my-4">
+                <!--
+                m - margin
+                x - for classes that set both *-left and *-right
+                auto will center this div since the width is defined
+                -->
+                <div class="d-md-flex flex-md-row mt-2">
+                    <!-- margin top -->
+                    <div class="p-4">
+                        <span class="custom-font">We practice fairtrade.</span><br>
+                        <img src="images/fairtrade%20logo.svg" width="100"  alt="fairtraide logo"><br>
+                        <a href="https://www.fairtrade.at/fileadmin/AT/Unternehmen/Operator-guidl_traders.pdf" class="custom-link custom-font">What is fairtrade?</a>
+                    </div>
+
+                    <div class="p-4">
+                        <a href="https://www.scienceofcooking.com/chocolate/how-is-chocolate-made.htm" class="custom-link py-1 custom-font">Email Us</a><br><br>
+                        <a href="#" class="custom-link py-1 custom-font">Careers in<br>Chocolate Making</a><br><br>
+                        <a href="#" class="custom-link py-1 custom-font">Faqs</a>
+                    </div>
+
+                    <div class="p-4">
+                        <a href="https://www.scienceofcooking.com/chocolate/how-is-chocolate-made.htm" class="custom-link custom-font">How is Chocolate Made?</a><br><br>
+                        <a href="#" class="custom-link py-3 custom-font">Our Process</a><br><br>
+                        <a href="#" class="custom-link py-3 custom-font">Our Mission</a>
+                    </div>
+
+                    <div class="p-4">
+                        <span>Connect</span><br>
+                        <div class="d-flex flex-md-row"><a href="https://twitter.com">
+                            <img class="p-2" id="tw" src="images/twitter.svg" height=40 alt="twitter logo">
+                        </a>
+                            <a href="https://facebook.com">
+                                <img class="p-2" id="fb" src="images/facebook.svg" height=40 alt="facebook logo">
+                            </a>
+                        </div>
+                        <div><a href="https://linkedin.com">
+                            <img class="p-2" src="images/linkedin.svg" height=40 alt="linkedin logo">
+                        </a>
+                            <a href="https://pinterest.com">
+                                <img class="p-2" src="images/pinterest.svg" height=40 alt="pinterest logo">
+                            </a>
+                        </div>
+                        <div><a href="https://instagram.com">
+                            <img class="p-2" src="images/instagram.svg" height=40 alt="instagram logo">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 d-flex flex-md-row">
+                    <span class="p-2 h5 custom-font">Site Navigation:</span>
+                    <a href="index.html" class="custom-link p-2 custom-font">Main</a>
+                    <a href="#" class="custom-link p-2 custom-font">Shop</a>
+                    <a href="#" class="custom-link p-2 custom-font">Specials</a>
+                    <a href="#" class="custom-link p-2 custom-font">About</a>
+                    <a href="#" class="custom-link p-2 custom-font">Contact</a>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
